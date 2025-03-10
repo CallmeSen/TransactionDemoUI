@@ -1,0 +1,11 @@
+﻿@page
+@model List<string>
+<h1>Demonstration Result</h1>
+<p>Here’s what happened during the demonstration:</p>
+<ul>
+    @foreach (var entry in Model)
+    {
+        <li>@entry</li>
+    }
+</ul>
+<p><a href="/Demo/Index">Back to demonstrations</a></p>
